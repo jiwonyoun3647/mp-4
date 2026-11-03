@@ -1,5 +1,6 @@
 import getExhibition from "@/lib/getExhibition";
 import ExhibitionDisplay from "@/app/exhibitions/ExhibitionDisplay";
+export const dynamic = "force-dynamic";
 
 export default async function ExhibitionPage({ searchParams }: { searchParams: Promise<{ keyword: string }> })
 {
